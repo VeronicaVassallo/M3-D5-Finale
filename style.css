@@ -1,0 +1,59 @@
+nav .bg-secondary{
+    background-color: hotpink;
+}
+nav ul.dropdown-menu:last-of-type{
+    right: 5;
+    left: 87%;
+
+}
+div.jumbotron{
+    background-color: rgb(118, 70, 250);
+    background-image: url(assets/assets/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    padding-top: 8%;
+    background-position-y: bottom;
+    background-position-x: 80%;
+}
+div.jumbotron h2{
+    font-weight: 500;
+    font-size: xx-large;
+}
+div.jumbotron > div{
+    margin-left: 10%;
+    padding-right: 0;
+    width: 40%;
+    padding-bottom: 5%;
+}
+
+.col-12.col-md-4.d-flex.align-items-center{
+    width: 33%;
+}
+
+.rounded-circle.text-center.m-4.text-center{
+    background-color:rgb(252, 225, 196) ;
+    color: rgb(129, 84, 1);
+}
+.row.gx-5.mx-5.d-flex.justify-content-around{
+    margin-bottom: 1.5rem;
+}
+main{
+    background-color: rgb(241, 238, 238);
+}
+
+footer li{
+    list-style: none;
+    margin-right: 10px;
+}
+footer{
+    margin-left: 11%;
+    margin-right: 11%;
+    border-top: solid 2px rgb(214, 212, 212);
+}
+
+@media screen and (max-width: 768px) {
+    .col-12.col-md-4.d-flex.align-items-center {
+      width: 100%;
+    }
+  }
